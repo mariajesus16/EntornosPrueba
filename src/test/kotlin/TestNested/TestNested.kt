@@ -10,7 +10,7 @@ class TestNested {
 
     @Nested
     @DisplayName("")
-    class grupo1{
+    inner class grupo1{
         @Test
         @DisplayName ("Grupo 1 - test 1")
         internal fun test1() {
@@ -29,7 +29,7 @@ class TestNested {
     }
     @Nested
     @DisplayName("")
-    class grupo2{
+    inner class grupo2{
         @Test
         @DisplayName ("Grupo 2 - test 1")
         internal fun test1() {
